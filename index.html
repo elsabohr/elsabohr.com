@@ -1,0 +1,486 @@
+<!doctype html>
+<html ng-app="storeApp">
+<head>
+    <title>Elsa Bohr</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Elsa Bohr Productos">
+    <meta name="author" content="Elsa Bohr">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/superslides.css">
+    <link rel="stylesheet" href="static/css/style.css?v=2">
+    <link rel="stylesheet" href="static/css/icons.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">	
+    <link rel="stylesheet" href="static/css/orange.css" class="colors">
+    <link rel="shortcut icon" href="static/img/ico/32.png" sizes="32x32" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" href="static/img/ico/60.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/img/ico/72.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="static/img/ico/120.png" type="image/png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="static/img/ico/152.png" type="image/png"/>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+
+    <!-- navbar -->
+    <div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+                    <h1 class="navlogo"></h1>
+                </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul id="navigation" class="nav navbar-nav navbar-right text-center">
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#orderform">Order</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="http://blog.elsabohr.com">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- navbar -->
+
+    <section id="hero" class="light-typo ">
+        <div class="container welcome-content">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
+                    <img id="logo" src="static/img/logo-orange.png" class="img-responsive text-center" alt="shop logo" width="300">
+                    <h2>
+                        Productos orgánico, ricos, sanos y naturales.<br/>
+                        Mensualmente en tu casa. <br/>
+                        A un click de distancia. <br/>
+                    </h2>
+                    <ul class="social-links text-center">
+                        <li><a href="#link"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#link"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#link"><i class="icon-vimeo"></i></a></li>
+                    </ul>
+                    <a class="btn btn-store smooth-scroll" href="#products">browse the goods</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay-bg"></div>
+        <div id="hero-slides">
+            <div class="slides-container">
+                <img src="static/img/slide-01.jpg" alt="">
+                <img src="static/img/slide-02.jpg" alt="">
+                <img src="static/img/slide-03.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class=" padding-top-bottom">
+        <div class="container">
+            <header class="section-header text-center wow fadeInUp">
+                <h2>Products</h2>
+            </header>
+        </div>
+        <div class="container">
+            <div id="projects-container" class="row">
+                <article class="design product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="img-box">
+                        <div class="hover-mask2"></div>
+                        <span class="product-icon icon-eye"></span>
+                        <img class="img-responsive project-image" src="static/img/product1.jpg" alt="">
+                    </div>
+                    <div class="product-info col-md-12">
+                        <p class="project-price">$700</p>
+                        <div>
+                            <h4 class="project-title">Bed</h4>
+                        </div>
+                    </div>
+                    <div class="sr-only project-description"  data-oldprice="$800" data-images="static/img/01.jpg,static/img/02.jpg,static/img/03.jpg,static/img/04.jpg,static/img/05.jpg">
+                        <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                    </div>
+                </article>
+					
+                <article class="mock-up product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="img-box">
+                        <div class="hover-mask2"></div>
+                        <span class="product-icon icon-eye"></span>
+                        <img class="img-responsive project-image" src="static/img/product2.jpg" alt="">
+                    </div>
+                    <div class="product-info col-md-12">
+                        <p class="project-price">$400</p>
+                        <div>
+                            <h4 class="project-title">Nightstand</h4>
+                        </div>	
+                    </div>
+                    <div class="sr-only project-description" data-images="static/img/06.jpg,static/img/07.jpg,static/img/08.jpg,static/img/09.jpg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                        <p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
+                    </div>
+                </article>
+                                                        
+                <article class=" icons product col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="img-box">
+                        <div class="hover-mask2"></div>
+                        <span class="product-icon icon-eye"></span>
+                        <img class="img-responsive project-image" src="static/img/product3.jpg" alt="">
+                    </div>
+                    <div class="product-info col-md-12">
+                        <p class="project-price">$600</p>
+                        <div>
+                            <h4 class="project-title">Hammock</h4>
+                        </div>	
+                    </div>
+                    <div class="sr-only project-description" data-oldprice="$700" data-images="static/img/10.jpg,static/img/11.jpg,static/img/12.jpg">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                        <p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <div id="project-modal" class="modal " style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a class="close" href="#" data-dismiss="modal" ><i class="icon-close"></i></a>
+                        <div class="loader" style="display: block;"></div>
+                        <div class="screen"></div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div id="project-sidebar" class="col-md-4 ">
+                                    <h2 id="sdbr-title">Flat UI-Kit</h2>	
+                                    <div>
+                                        <div id="sdbr-price">200</div>
+                                        <div id="sdbr-oldprice">500</div>
+                                    </div>
+                                </div>
+                                <div id="project-content" class="col-md-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gray-bg padding-top-bottom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 wow fadeInLeft">
+                    <h3 class="center cta-message">Free international shipping only  <strong><span id="countdown"></span></strong></h3>
+                </div>
+                <div class="col-md-4 text-center wow fadeInRight">
+                    <a class="btn btn-store cta-button smooth-scroll" href="#orderform" >Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="padding-top-bottom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 wow fadeInLeft">
+                    <header class="section-header cta-message">
+                        <h2>About company</h2>
+                        <h4>Pellentesque interdum eget</h4>
+                    </header>
+                </div>
+                <div class="col-md-8 cta-message wow fadeInUp">
+                    <p>Pellentesque interdum eget odio eu rutrum. Nunc tempus massa a tellus aliquet sodales. Nunc urna tortor, rhoncus accumsan vestibulum non, feugiat a mauris. In hac habitasse platea dictumst. In sagittis orci nec aliquet tristique.</p>
+                    <p style="display:none;" id="showme">Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+                    <a class="btn btn-store outline" id="show-btn" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="padding-top-bottom image-bg light-typo">
+        <div class="container">
+				
+            <div class="testimonial">
+                <div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example" data-interval="10000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h1>This is one of the most beautiful site I have ever seen in my life. <br>Your site is great!</h1>
+                            <br>
+                            <h3>Brad Cooper</h3>
+                        </div>
+                        <div class="item">
+                            <h1>The Difference between ordinary and extraordinary <br>is just that little extra.</h1>
+                            <br>
+                            <h3>Albert Einstein</h3>
+                        </div>
+                        <div class="item">
+                            <h1>Hugely thought out! <br>Trying it now.I like the use of shape and background image!</h1>
+                            <br>
+                            <h3>John Doe</h3>
+                        </div>
+                    </div>
+                    <br><br><br>
+                </div>
+            </div>
+            <div class="overlay-bg"></div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="light-typo dark-bg padding-top-bottom">
+        <div class="container ">
+            <header class="section-header text-center">
+                <h2>Stay in touch</h2>
+                <h4>Sign Up for Email Updates on on News & Offers</h4>
+            </header>
+            <div class="row">
+                <form id="newsletter-form" action="index.html" method="POST" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+                    <div class="input-group">
+                        <input id="newsletter-mail" name="email" placeholder="Enter your email" class="form-control input-lg" type="email" >
+                        <span class="input-group-btn">
+                            <button name="submit" type="submit" class="btn btn-store">Subscribe!</button>
+                        </span>
+                    </div>
+                    <input type="hidden" name="submitted" id="submitted2" value="true">
+                </form>
+            </div>
+        </div>
+    </section>	
+
+    <section id="orderform" class="gray-bg padding-top-bottom" ng-controller="orderController">
+        <div class="container">
+            <header class="section-header text-center">
+                <h2>Order Form</h2>
+            </header>
+
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4">
+                    <h3>Pagar uno solo</h3>
+<a href="https://www.mercadopago.com/mla/checkout/pay?pref_id=177720512-5e4ad867-f7f9-40e3-9225-3bd1ec6fd092" name="MP-payButton" class="green-l-rn-ar">Pagar</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
+                </div>
+                <div class="col-md-4 col-sm-4 news wow fadeInUp">
+                    <h3>Suscribirse</h3>
+
+<a href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=dd3d8b89e93c45c99f8452fb879f4acf" name="MP-payButton" class="orange-l-rn-ar">Suscribirme</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
+                </div>
+                <div class="col-md-4 col-sm-4 wow fadeInUp">
+                    <h3>Producto Sorpresa</h3>
+<a href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=d9d96063306e4c6eba3e5314fb77befe" name="MP-payButton" class="green-l-rn-ar">Sorpresa Mensual</a>
+<script type="text/javascript">
+(function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="cta" class="padding-top-bottom color-bg light-typo">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="10">
+                    <i class="icon-trophy iconBig"></i>
+                    <h3>Quality guaranteed</h3>
+                </div>
+                <div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="10">
+                    <i class="icon-truck iconBig"></i>
+                    <h3>Home delivery</h3>
+                </div>
+                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="10">
+                    <i class="icon-lock iconBig news"></i>
+                    <h3>Secure payment</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="gray-bg padding-top-bottom">
+        <div class="container">
+            <header class="section-header text-center">
+                <h1><strong>Contact</strong></h1>
+                <p>Do you have some kind of problem with our products?</p>
+            </header>
+            <form action="index.html" method="post" novalidate id="contact-form">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 contact-info cta-message wow fadeInLeft">
+                        <address>
+                            <strong>microStore</strong><br>
+                            84 State Road 123<br>
+                            City, State 24813<br>
+                            (123) 456 - 7890<br>
+                            contact@companyname.com
+                        </address>
+                    </div>	
+
+                    <div class="col-xs-12 col-sm-12 col-md-8 wow fadeInUp" >
+                        <div class="form-group">
+                            <label class="control-label" for="contact-name">Name</label>
+                            <div class="controls">
+                                <input id="contact-name" name="contactName" placeholder="Your name" class="form-control input-lg requiredField" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="contact-mail">Email</label>
+                            <div class=" controls">
+                                <input id="contact-mail" name="email" placeholder="Your email" class="form-control input-lg requiredField" type="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="contact-message">Message</label>
+                            <div class="controls">
+                                <textarea id="contact-message" name="comments" placeholder="Your message" class="form-control input-lg requiredField" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <p><button name="submit" type="submit" class="btn btn-store btn-block">Send Message</button></p>
+                        <input type="hidden" name="submitted" id="submitted3" value="true">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="main-footer" class="dark-bg light-typo">
+        <div class="container">
+            <p class="pull-left copyright wow fadeInUp">
+                &copy; MicroStore 2014. <br> Designed by <a href="http://www.angelostudio.net" target="_blank">Angelo Studio</a>.<br>
+            </p>
+            <div class="pull-right paymentMethodImg copyright wow fadeInRight">
+                <a class="btn btn-store outline" href="#" data-toggle="modal" data-target=".text-modal">Terms & conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade text-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="color-bg">	
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-xs-12 col-sm-12 col-md-12 color-bg light-typo" id="9modal-bar">
+                                <h2 class="pull-left">TERMS & CONDITIONS</h2>
+                                <a class="close pull-right" href="#" data-dismiss="modal" ><i class="icon-close"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-6 col-md-6" >	
+                        <h3>Pricing policy</h3>
+                            <p>
+                                Prices are shown in € (EURO). All prices include Danish VAT of 25%. Prices do not include service, payment and delivery charges. Orders may be subjected to local taxes and/or import duties at your own expense.
+                                Tax-free shopping on microStore.com is not available.
+                                micro Store the right to change prices of the products. The prices of the products will, during the time of placing an order, be valid throughout the process. We however take reservations for typing errors.
+                            </p>
+                            <h3>Payment</h3>
+                            <p>
+                                We accept the following credit- and debit cards: Visa, Mastercard, Maestro, Visa Electron, JCB, UnionPay and American Express.The amount for your order will not be charged until your order is shipped from microStore.
+                                We also accept microStore online gift cards.
+                            </p>
+                            <h3>Order confirmation</h3>
+                            <p>
+                                You will receive an order confirmation by e-mail shortly after placing your order. On rare occasions an item can be out of stock. Then you will be informed by e-mail.
+                            </p>
+                            <h3>Shipping</h3>
+                            <p>
+                                We know that you can’t wait to get your order so we do our best to ship your order on the following working day. To follow the goods way to your closet you can track your order with the tracking number included in your shipping confirmation, which you get by e-mail as soon as we dispatch your order.
+                                Your order will be dispatched within 1-3 workdays from the time you place your order. When your order is dispatched, you will receive a shipping confirmation by e-mail. Orders to Denmark above 200€ and all international orders will include a tracking number to your shipping confirmation. All orders within EU are shipped via GLS and outside Europe orders are shipped via TNT, UPS and FedEx.
+                                The following shipping charges will be added to your order:<br>
+                                Denmark: 4 EUR <br>
+                                Europe: 8 EUR <br>
+                                Rest of the world: 16 EUR <br>
+                                Danish orders will be delivered within 1-3 days from the day you received your shipping confirmation.
+                                International orders will be delivered within 1-10 days from the day you received your shipping confirmation.
+                                Orders are not shipped or delivered on weekends and holidays. If a delivery suffers a delay or an item happens to be out of stock, you will be informed by e-mail as quick as possible and latest 30 days after the order was placed. Some delays may occur during sales, very busy periods, public holidays and severe weather conditions.
+                                Please notice that we are unable to deliver to P.O. box adresses.
+                            </p>
+                            <h3>Returns</h3>
+                            <p>
+                                If you change your mind about an item you must notify us within 14 days after having received your purchase and ship it to microStore within the following 14 days from having notified us. To return an order please contact shop@microStore.com and await our return confirmation. When received, you can return your order by the following procedure:
+                                Make sure that the product is still in perfect condition with undamaged packaging and tags still attached. We reserve the right to refuse any returns that do not match with these critetia:
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6" >
+                            <p>
+                                <br><br>
+                                Place the product in a shipping box or plastic bag. Hats and caps must be returned in a box so they do not get squashed out of shape.
+                                Enclose the original sales receipt to the product.
+                                Write RETURN on the package to ensure a faster expedition.
+                                Send the package to: microStore, 84 State Road 123, City, State 24813
+                                The return and financial responsibility is yours until it reaches microStore and are confirmed by a delivery confirmation. Please notice that we can exchange your items to another size or color if available in stock.
+                            </p>
+                            <h3>Warranty claims</h3>
+                            <p>
+                                There is a 2 years warranty on all products sold on www.microStore.com. This warranty covers manufacturing faults only, not wear and tear from regular use. Please contact us at shop@microStore.com if you have a warranty claim, including order number, photos of the claim area and a description of the claim.
+                            </p>
+                            <h3>Disclaimer</h3>
+                            <p>
+                                microStore does not guarantee that all items shown are in stock at the time of your order. In the event that an item is unavailable for whatever reason, microStore will contact you by e-mail. Although we do our best to display correct images, correct colours, info and prices, errors may occur.
+                            </p>
+                            <h3>Privacy policy</h3>
+                            <p>
+                                All your personal information is handled under strict confidence. microStore.com will never give any of your personal information to 3rd parties.All information is encrypted for safety.
+                            </p>
+                            <h3>Security</h3>
+                            <p>
+                                For the safety of your personal information, we use SLL encryption on all data to and from the site. When placing an order, you can immediately check the security validity by clicking the padlock icon that appears in the URL line of your browser when SSL is activated.
+                            </p>
+                            <h3>Cookies</h3>
+                            <p>
+                                Cookies are used by microStore.com in order to improve your experience when browsing and using the website. The cookie identifies your computer and allows the site to remember your personal settings. microStore.com may not operate properly when cookies are disabled in your web browser.
+                            </p>
+                            <h3>Measurements</h3>
+                            <p>
+                                All measurements are approximate and variance may occur. We have done our best but please have average sizing in mind and note that +/- 1cm on each measurement may occur.
+                            </p>
+                            <h3>Age restrictions</h3>
+                            <p>
+                                Parental or guardian consent is required for customers under the age of 18.
+                            </p>
+                            <h3>Governing law</h3>
+                            <p>
+                                The terms of use are complied in accordance with Danish law and the Danish courts will have exclusive jurisdiction.
+                            </p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 text-center" >	
+                            <a class="btn btn-store" href="#" data-dismiss="modal">Back to shop</a><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.superslides.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="static/js/wow.min.js"></script>
+    <script type="text/javascript" src="static/js/custom.js?v=1"></script>
+    <script type="text/javascript" src="static/js/app.js"></script>
+
+</body>
+</html>
