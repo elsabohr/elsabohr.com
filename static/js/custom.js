@@ -47,18 +47,6 @@ $(document).ready(function() {
 		}
 	});
 
-
-	/* countdown ======================================= */	
-	var days = 3;
-	var date = new Date();
-	var res = date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-	
-	$('#countdown').countdown(res, function(event) {
-	  $(this).text(
-		event.strftime('%-d days %H:%M:%S')
-	  );
-	});
-
 	/* Smooth Hash Link Scroll ======================================= */	
 	$('.smooth-scroll').click(function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -91,7 +79,7 @@ $(document).ready(function() {
 		$('#project-modal').on('show.bs.modal', function() {
 			$(this).find('#sdbr-title').text(title);
 			$(this).find('#sdbr-price').text(price);
-			$(this).find('#project-content').html(descr).append('<a id="btn-order" class="btn btn-store btn-right"  href="#">Order now</a>');
+			$(this).find('#project-content').html(descr).append('<a id="btn-order" class="btn btn-store btn-right"  href="#">Comprar</a>');
 			$(this).find('.screen').addClass('slides').html(slidesHtml);
 			if (elemDataCont.data('oldprice')) {
 				$(this).find('#sdbr-oldprice').show().text(elemDataCont.data('oldprice'))

@@ -38,6 +38,16 @@
 .btn-store.outline:active  {
 	background-color: #FFA500;
 }
+.color-bg-2{
+    background-color: #009E8E;
+}
+.color-bg-3{
+    background-color: #3315B0;
+}
+.color-bg-4{
+    background-color: #567BBF;
+}
+
 
 .btn-store:hover,
 .btn-store:focus,
