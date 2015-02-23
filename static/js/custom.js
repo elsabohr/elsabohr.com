@@ -40,7 +40,7 @@ $(document).ready(function() {
 		onComplete: function() {}
 	});
 	
-	/* Bootstrap Affix ======================================= */		
+	/* Bootstrap Affix ======================================= */	
 	$('#modal-bar').affix({
 		offset: {
 			top: 10,
