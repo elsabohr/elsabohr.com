@@ -138,24 +138,15 @@ footer {
 /* ------------------------ nav bar ------------------------ */
 /* Navlogo */
 .navlogo {
-  background-image: url(../img/navlogo-orange.png);
+  background-image: url(../img/navlogo-white.png);
   background-repeat: no-repeat;
-  background-size: 122px 45px;
-  background-position: -40px 0px;
-  width: 83px;
+  width: 45px;
   height: 45px;
   text-indent: -999999px;
   position: absolute;
   top: -10px;
   left: 0;
-  transition: all .4s ease;
 }
-
-.navlogo:hover {
-  width: 122px;
-  background-position: 0 0;
-}
-
 
 .navbar{
 	background-color: #242424;
